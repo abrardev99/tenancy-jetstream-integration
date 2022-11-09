@@ -2,6 +2,8 @@
 
 use App\Providers\RouteServiceProvider;
 use Laravel\Fortify\Features;
+use Stancl\Tenancy\Middleware\InitializeTenancyByDomainOrSubdomain;
+use Stancl\Tenancy\Middleware\PreventAccessFromUnwantedDomains;
 
 return [
 
@@ -89,7 +91,10 @@ return [
     |
     */
 
-    'middleware' => ['web'],
+    'middleware' => [
+        'web',
+        PreventAccessFromUnwantedDomains::class,
+    ],
 
     /*
     |--------------------------------------------------------------------------

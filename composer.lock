@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38df77e53f4c78f3a21a8ec11d0d0a7a",
+    "content-hash": "fce59f547623c3552480676e23bee171",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -3450,6 +3450,401 @@
                 }
             ],
             "time": "2022-11-05T23:03:38+00:00"
+        },
+        {
+            "name": "spatie/backtrace",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/backtrace.git",
+                "reference": "4ee7d41aa5268107906ea8a4d9ceccde136dbd5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/backtrace/zipball/4ee7d41aa5268107906ea8a4d9ceccde136dbd5b",
+                "reference": "4ee7d41aa5268107906ea8a4d9ceccde136dbd5b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "phpunit/phpunit": "^9.3",
+                "symfony/var-dumper": "^5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Backtrace\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van de Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A better backtrace",
+            "homepage": "https://github.com/spatie/backtrace",
+            "keywords": [
+                "Backtrace",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/backtrace/issues",
+                "source": "https://github.com/spatie/backtrace/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/spatie",
+                    "type": "github"
+                },
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "other"
+                }
+            ],
+            "time": "2021-11-09T10:57:15+00:00"
+        },
+        {
+            "name": "spatie/flare-client-php",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/flare-client-php.git",
+                "reference": "b1b974348750925b717fa8c8b97a0db0d1aa40ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/b1b974348750925b717fa8c8b97a0db0d1aa40ca",
+                "reference": "b1b974348750925b717fa8c8b97a0db0d1aa40ca",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/pipeline": "^8.0|^9.0",
+                "php": "^8.0",
+                "spatie/backtrace": "^1.2",
+                "symfony/http-foundation": "^5.0|^6.0",
+                "symfony/mime": "^5.2|^6.0",
+                "symfony/process": "^5.2|^6.0",
+                "symfony/var-dumper": "^5.2|^6.0"
+            },
+            "require-dev": {
+                "dms/phpunit-arraysubset-asserts": "^0.3.0",
+                "pestphp/pest": "^1.20",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "spatie/phpunit-snapshot-assertions": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Spatie\\FlareClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Send PHP errors to Flare",
+            "homepage": "https://github.com/spatie/flare-client-php",
+            "keywords": [
+                "exception",
+                "flare",
+                "reporting",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/flare-client-php/issues",
+                "source": "https://github.com/spatie/flare-client-php/tree/1.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-08-08T10:10:20+00:00"
+        },
+        {
+            "name": "spatie/ignition",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/ignition.git",
+                "reference": "dd3d456779108d7078baf4e43f8c2b937d9794a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/ignition/zipball/dd3d456779108d7078baf4e43f8c2b937d9794a1",
+                "reference": "dd3d456779108d7078baf4e43f8c2b937d9794a1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "monolog/monolog": "^2.0",
+                "php": "^8.0",
+                "spatie/flare-client-php": "^1.1",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/var-dumper": "^5.4|^6.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.4",
+                "pestphp/pest": "^1.20",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "symfony/process": "^5.4|^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Ignition\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Spatie",
+                    "email": "info@spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A beautiful error page for PHP applications.",
+            "homepage": "https://flareapp.io/ignition",
+            "keywords": [
+                "error",
+                "flare",
+                "laravel",
+                "page"
+            ],
+            "support": {
+                "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction",
+                "forum": "https://twitter.com/flareappio",
+                "issues": "https://github.com/spatie/ignition/issues",
+                "source": "https://github.com/spatie/ignition"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-08-26T11:51:15+00:00"
+        },
+        {
+            "name": "stancl/jobpipeline",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archtechx/jobpipeline.git",
+                "reference": "fe0fc363e672a8b101997af628ccf838710ed191"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archtechx/jobpipeline/zipball/fe0fc363e672a8b101997af628ccf838710ed191",
+                "reference": "fe0fc363e672a8b101997af628ccf838710ed191",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0|^8.0|^9.0"
+            },
+            "require-dev": {
+                "ext-redis": "*",
+                "orchestra/testbench": "^4.0|^6.0|^7.0",
+                "spatie/valuestore": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stancl\\JobPipeline\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel Štancl",
+                    "email": "samuel.stancl@gmail.com"
+                }
+            ],
+            "description": "Turn any series of jobs into Laravel listeners.",
+            "support": {
+                "issues": "https://github.com/archtechx/jobpipeline/issues",
+                "source": "https://github.com/archtechx/jobpipeline/tree/v1.6.1"
+            },
+            "time": "2022-03-30T15:12:15+00:00"
+        },
+        {
+            "name": "stancl/tenancy",
+            "version": "dev-early-identification",
+            "dist": {
+                "type": "path",
+                "url": "../tenancy-v4",
+                "reference": "4921d53ea44f5e3f3828895e1641aa6d27812b46"
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/support": "^9.0",
+                "php": "^8.1",
+                "ramsey/uuid": "^4.0",
+                "spatie/ignition": "^1.4",
+                "stancl/jobpipeline": "^1.0",
+                "stancl/virtualcolumn": "^1.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.10",
+                "laravel/framework": "^9.0",
+                "league/flysystem-aws-s3-v3": "^3.0",
+                "nunomaduro/larastan": "^1.0",
+                "orchestra/testbench": "^7.0",
+                "pestphp/pest": "^1.21",
+                "spatie/valuestore": "^1.2.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Stancl\\Tenancy\\TenancyServiceProvider"
+                    ],
+                    "aliases": {
+                        "Tenancy": "Stancl\\Tenancy\\Facades\\Tenancy",
+                        "GlobalCache": "Stancl\\Tenancy\\Facades\\GlobalCache"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stancl\\Tenancy\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Stancl\\Tenancy\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "docker-up": [
+                    "PHP_VERSION=8.1 docker-compose up -d"
+                ],
+                "docker-down": [
+                    "PHP_VERSION=8.1 docker-compose down"
+                ],
+                "docker-rebuild": [
+                    "PHP_VERSION=8.1 docker-compose up -d --no-deps --build"
+                ],
+                "docker-m1": [
+                    "ln -s docker-compose-m1.override.yml docker-compose.override.yml"
+                ],
+                "coverage": [
+                    "open coverage/phpunit/html/index.html"
+                ],
+                "phpstan": [
+                    "vendor/bin/phpstan"
+                ],
+                "cs": [
+                    "php-cs-fixer fix --config=.php-cs-fixer.php"
+                ],
+                "test": [
+                    "PHP_VERSION=8.1 ./test --no-coverage"
+                ],
+                "test-full": [
+                    "PHP_VERSION=8.1 ./test"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel Štancl",
+                    "email": "samuel@archte.ch"
+                }
+            ],
+            "description": "Automatic multi-tenancy for your Laravel application.",
+            "keywords": [
+                "laravel",
+                "multi-database",
+                "multi-tenancy",
+                "tenancy"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "stancl/virtualcolumn",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/archtechx/virtualcolumn.git",
+                "reference": "ab3f943990e8b3e0a6ba5e90be6bf216bdaf1719"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/archtechx/virtualcolumn/zipball/ab3f943990e8b3e0a6ba5e90be6bf216bdaf1719",
+                "reference": "ab3f943990e8b3e0a6ba5e90be6bf216bdaf1719",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^6.0|^8.0|^9.0",
+                "illuminate/support": "^6.0|^8.0|^9.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0|^6.0|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stancl\\VirtualColumn\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel Štancl",
+                    "email": "samuel.stancl@gmail.com"
+                }
+            ],
+            "description": "Eloquent virtual column.",
+            "support": {
+                "issues": "https://github.com/archtechx/virtualcolumn/issues",
+                "source": "https://github.com/archtechx/virtualcolumn/tree/v1.3.0"
+            },
+            "time": "2022-10-21T12:09:30+00:00"
         },
         {
             "name": "symfony/console",
@@ -8082,212 +8477,6 @@
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
-            "name": "spatie/backtrace",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/backtrace.git",
-                "reference": "4ee7d41aa5268107906ea8a4d9ceccde136dbd5b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/backtrace/zipball/4ee7d41aa5268107906ea8a4d9ceccde136dbd5b",
-                "reference": "4ee7d41aa5268107906ea8a4d9ceccde136dbd5b",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.3|^8.0"
-            },
-            "require-dev": {
-                "ext-json": "*",
-                "phpunit/phpunit": "^9.3",
-                "symfony/var-dumper": "^5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Backtrace\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van de Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A better backtrace",
-            "homepage": "https://github.com/spatie/backtrace",
-            "keywords": [
-                "Backtrace",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/backtrace/issues",
-                "source": "https://github.com/spatie/backtrace/tree/1.2.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/spatie",
-                    "type": "github"
-                },
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "other"
-                }
-            ],
-            "time": "2021-11-09T10:57:15+00:00"
-        },
-        {
-            "name": "spatie/flare-client-php",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/flare-client-php.git",
-                "reference": "b1b974348750925b717fa8c8b97a0db0d1aa40ca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/b1b974348750925b717fa8c8b97a0db0d1aa40ca",
-                "reference": "b1b974348750925b717fa8c8b97a0db0d1aa40ca",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/pipeline": "^8.0|^9.0",
-                "php": "^8.0",
-                "spatie/backtrace": "^1.2",
-                "symfony/http-foundation": "^5.0|^6.0",
-                "symfony/mime": "^5.2|^6.0",
-                "symfony/process": "^5.2|^6.0",
-                "symfony/var-dumper": "^5.2|^6.0"
-            },
-            "require-dev": {
-                "dms/phpunit-arraysubset-asserts": "^0.3.0",
-                "pestphp/pest": "^1.20",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "spatie/phpunit-snapshot-assertions": "^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "Spatie\\FlareClient\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Send PHP errors to Flare",
-            "homepage": "https://github.com/spatie/flare-client-php",
-            "keywords": [
-                "exception",
-                "flare",
-                "reporting",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/flare-client-php/issues",
-                "source": "https://github.com/spatie/flare-client-php/tree/1.3.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-08-08T10:10:20+00:00"
-        },
-        {
-            "name": "spatie/ignition",
-            "version": "1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/ignition.git",
-                "reference": "dd3d456779108d7078baf4e43f8c2b937d9794a1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ignition/zipball/dd3d456779108d7078baf4e43f8c2b937d9794a1",
-                "reference": "dd3d456779108d7078baf4e43f8c2b937d9794a1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "monolog/monolog": "^2.0",
-                "php": "^8.0",
-                "spatie/flare-client-php": "^1.1",
-                "symfony/console": "^5.4|^6.0",
-                "symfony/var-dumper": "^5.4|^6.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.4",
-                "pestphp/pest": "^1.20",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "symfony/process": "^5.4|^6.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\Ignition\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Spatie",
-                    "email": "info@spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A beautiful error page for PHP applications.",
-            "homepage": "https://flareapp.io/ignition",
-            "keywords": [
-                "error",
-                "flare",
-                "laravel",
-                "page"
-            ],
-            "support": {
-                "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction",
-                "forum": "https://twitter.com/flareappio",
-                "issues": "https://github.com/spatie/ignition/issues",
-                "source": "https://github.com/spatie/ignition"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-08-26T11:51:15+00:00"
-        },
-        {
             "name": "spatie/laravel-ignition",
             "version": "1.6.1",
             "source": {
@@ -8430,7 +8619,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "stancl/tenancy": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
